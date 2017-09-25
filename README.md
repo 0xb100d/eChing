@@ -2,6 +2,7 @@
 Calculate I Ching hexagrams for divination using authentic yarrow-stalk distribution of line probility.
 
 https://en.wikipedia.org/wiki/Iching
+
 https://en.wikipedia.org/wiki/I_Ching_divination
 
 The I Ching is one of the oldest continually in print books, first published over 2,000 years ago. In essence, it represents a system where values are randomly created (through varying methods) and six "lines" are output which are combined to create one of 64 "hexagrams." Each hexagram has properties that, like a Zen koan, are insightful in different meaningful ways depending on the context of the calculation. A person generally meditates on a question while using whatever random method they like to output lines, aftewarward consulting the I Ching  text to determine the meaning of their final hexagram.
@@ -12,11 +13,15 @@ Today people commonly use three coins to determine the lines in a hexagram. Unfo
 
 Instead, this program uses the ancient and what is supposed to be more authentic distribution of lines.
 
-Num  Yarrow   Coin
-6 -   1/16 	  8/16
-8 -   7/16 	  6/16
-9 -   3/16 	  8/16
-7 -   5/16   	6/16 	
+Num  Yarrow   Coin   Name                      Image
+
+6 -   1/16 	  8/16   [Yin changing into Yang]  ---x---
+
+8 -   7/16 	  6/16   [Yin unchanging]          ---  ---
+
+9 -   3/16 	  8/16   [Yang changing into Yin]  ---o---
+
+7 -   5/16   	6/16 	 [Yanj unchanging]         --------
 
 This is meaningful because line types 6 & 9 represent something called a changing line. If any of the lines in a six line hexagram is a changing line, a second, accompanying hexagram must be drawn wherein all of the changing lines have been switched out for their opposite type (solid turns to broken and vice versa). A reading that has one or more changing lines will result in two hexagrams with differing meaning, and more divinatory information related to the question at hand.
 
