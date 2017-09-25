@@ -1,7 +1,7 @@
 pragma solidity ^0.4.15;
 
 contract IChing {
-	// takes a question of user and returns array of 6 numbers from 0 to 3
+	// takes a question of user and returns array of 6 numbers from 6 to 9
 	// 6 - Old yin, 8 - Young yin, 9 - Old yang, 7 - Young yang
 	function cast(string _question) public constant returns(uint[]) {
 		uint[] memory lines = new uint[](6);
@@ -11,7 +11,7 @@ contract IChing {
 		return lines;
 	}
 
-	// takes a question of user and number of the line and returns a number from 0 to 3
+	// takes a question of user and number of the line and returns a number from 6 to 9
 	// internal means that this function can't be invoked outside of this contract
 	// keccak256 makes a pseudo random number considering:
 	// number of current block, address of sender, question of user, line height
