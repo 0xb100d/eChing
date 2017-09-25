@@ -1,6 +1,6 @@
 pragma solidity ^0.4.15;
 
-contract IChing {
+contract eChing {
 	// takes a question of user and returns array of 6 numbers from 6 to 9
 	// 6 - Old yin, 8 - Young yin, 9 - Old yang, 7 - Young yang
 	function cast(string _question) public constant returns(uint[]) {
