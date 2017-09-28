@@ -1,0 +1,63 @@
+h1 {
+	font-family: "Open Sans";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: "Open Sans";
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+body {
+	background-color: #E7E7E7;
+}
+.line6 {
+	background-image: url("img/4.png");
+	background-repeat: no-repeat;
+	height: 50px;
+}
+.line7 {
+	background-image: url("img/3.png");
+	background-repeat: no-repeat;
+	height: 50px;
+}
+.line8 {
+	background-image: url("img/2.png");
+	background-repeat: no-repeat;
+	height: 50px;
+}
+.line9 {
+	background-image: url("img/1.png");
+	background-repeat: no-repeat;
+	height: 50px;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "eChing",
+  "description": "Ethereum cleromancy machine",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "dependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
