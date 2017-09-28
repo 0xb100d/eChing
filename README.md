@@ -26,3 +26,20 @@ Num  Yarrow   Coin   Name                      Image
 This is meaningful because line types 6 & 9 represent something called a changing line. If any of the lines in a six line hexagram is a changing line, a second, accompanying hexagram must be drawn wherein all of the changing lines have been switched out for their opposite type (solid turns to broken and vice versa). A reading that has one or more changing lines will result in two hexagrams with differing meaning, and more divinatory information related to the question at hand.
 
 This program was designed to run on the Ethereum World Computer so that always and forever people will have easy access to magical information from outside of our dimension. You don't have to believe in it. Just meditate on a question you need some help answering and thinking about and then get a reading. There is nothing inherently magical about words that will help give you perspective on your life. But it almost seems magical.
+--
+Hosted version with graphical UI and MEW API coming soon, hang tight for the URL. Future versions will be hosted on IPFS.
+--
+eChingOraclized uses the correct yarrow-stalk distribution and also incorporates a true random number oracle via Oraclize. This is more expensive to run, and because the smart contract in its oracle-free form does not retain an ETH balance there is no reason to game it by exploiting its pseudo-randomness, and so the non oracle version is likely sufficient and more ideal for this task.
+
+--
+Test out an old version of the dApp which does not use the authentic yarrow-stalk distribution, but is instead an even random distribution of line likelihood, on the ropsten blockchain.
+
+0xc537b12159ee1EF0e68391f4cc78FcE52694Cc7e
+
+
+[{"constant":true,"inputs":[{"name":"_question","type":"string"}],"name":"cast","outputs":[{"name":"","type":"uint256[]"}],"payable":false,"stateMutability":"view","type":"function"}]
+
+cast() function will return 6 numbers from 0 to 3
+Where 0 is Old yin, 1 is Young yang, 2 is Young yin, 3 is Old yang
+
+
