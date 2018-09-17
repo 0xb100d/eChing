@@ -27,7 +27,11 @@ This is meaningful because line types 6 & 9 represent something called a changin
 
 This program was designed to run on the Ethereum World Computer so that always and forever people will have easy access to magical information from outside of our dimension. You don't have to believe in it. Just meditate on a question you need some help answering and thinking about and then get a reading. There is nothing inherently magical about words that will help give you perspective on your life. But it almost seems magical.
 --
-Hosted version with graphical UI and MEW API coming soon, hang tight for the URL. Future versions will be hosted on IPFS.
+Hosted version with graphical UI and MEW API 
+
+http://eching-env.aabcm7kmvi.us-east-2.elasticbeanstalk.com/
+
+Future versions will be hosted on IPFS.
 --
 eChingOraclized uses the correct yarrow-stalk distribution and also incorporates a true random number oracle via Oraclize. This is more expensive to run, and because the smart contract in its oracle-free form does not retain an ETH balance there is no reason to game it by exploiting its pseudo-randomness, and so the non oracle version is likely sufficient and more ideal for this task.
 
