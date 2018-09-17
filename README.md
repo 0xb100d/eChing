@@ -25,11 +25,13 @@ Num  Yarrow   Coin   Name                      Image
 
 This is meaningful because line types 6 & 9 represent something called a changing line. If any of the lines in a six line hexagram is a changing line, a second, accompanying hexagram must be drawn wherein all of the changing lines have been switched out for their opposite type (solid turns to broken and vice versa). A reading that has one or more changing lines will result in two hexagrams with differing meaning, and more divinatory information related to the question at hand.
 
-This program was designed to run on the Ethereum World Computer so that always and forever people will have easy access to magical information from outside of our dimension. You don't have to believe in it. Just meditate on a question you need some help answering and thinking about and then get a reading. There is nothing inherently magical about words that will help give you perspective on your life. But it almost seems magical.
---
-Hosted version with graphical UI and MEW API 
+This program was designed to run on the Ethereum World Computer so that always and forever people will have easy access to magical information from outside of our dimension. You don't have to believe in it. Just meditate on a question you need some help answering and thinking about and then get a reading. There is nothing inherently magical about words that will help give you perspective on your life. But it almost seems magical. 
+
+TRY THE DAPP w/ UI  and MetaMask here:
 
 http://eching-env.aabcm7kmvi.us-east-2.elasticbeanstalk.com/
+--
+
 
 Future versions will be hosted on IPFS.
 --
